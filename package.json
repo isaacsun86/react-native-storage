@@ -1,0 +1,26 @@
+{
+  "name": "react-native-persistent-storage",
+  "version": "0.0.2",
+  "description": "Simple wrapper around RN's AsyncStorage,which makes working with array,object and even a key of string.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacsun86/react-native-storage.git"
+  },
+  "keywords": [
+    "react-native",
+    "storage",
+    "persistent",
+    "local",
+    "storage"
+  ],
+  "author": "isaacsun86@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isaacsun86/react-native-storage/issues"
+  },
+  "homepage": "https://github.com/isaacsun86/react-native-storage#readme"
+}

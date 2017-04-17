@@ -1,0 +1,113 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node@6/6.10.0_1/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@4.1.2
+3 info using node@v6.10.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/isaac/app/react-native-storage',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/isaac/.npm/react-native-persistent-storage/0.0.1/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/isaac/.npm correctMkdir not in flight; initializing
+10 info lifecycle react-native-persistent-storage@0.0.1~prepublish: react-native-persistent-storage@0.0.1
+11 silly lifecycle react-native-persistent-storage@0.0.1~prepublish: no script for prepublish, continuing
+12 info lifecycle react-native-persistent-storage@0.0.1~prepare: react-native-persistent-storage@0.0.1
+13 silly lifecycle react-native-persistent-storage@0.0.1~prepare: no script for prepare, continuing
+14 verbose tar pack [ '/Users/isaac/.npm/react-native-persistent-storage/0.0.1/package.tgz',
+14 verbose tar pack   '/Users/isaac/app/react-native-storage' ]
+15 verbose tarball /Users/isaac/.npm/react-native-persistent-storage/0.0.1/package.tgz
+16 verbose folder /Users/isaac/app/react-native-storage
+17 verbose addLocalTarball adding from inside cache /Users/isaac/.npm/react-native-persistent-storage/0.0.1/package.tgz
+18 verbose correctMkdir /Users/isaac/.npm correctMkdir not in flight; initializing
+19 silly cache afterAdd react-native-persistent-storage@0.0.1
+20 verbose afterAdd /Users/isaac/.npm/react-native-persistent-storage/0.0.1/package/package.json not in flight; writing
+21 verbose correctMkdir /Users/isaac/.npm correctMkdir not in flight; initializing
+22 verbose afterAdd /Users/isaac/.npm/react-native-persistent-storage/0.0.1/package/package.json written
+23 silly publish { name: 'react-native-persistent-storage',
+23 silly publish   version: '0.0.1',
+23 silly publish   description: 'Simple wrapper around RN\'s AsyncStorage,which makes working with array,object and even a key of string.',
+23 silly publish   main: 'index.js',
+23 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+23 silly publish   repository:
+23 silly publish    { type: 'git',
+23 silly publish      url: 'git+https://github.com/isaacsun86/react-native-storage.git' },
+23 silly publish   keywords: [ 'react-native', 'storage', 'persistent', 'local', 'storage' ],
+23 silly publish   author: { name: 'isaacsun86@gmail.com' },
+23 silly publish   license: 'MIT',
+23 silly publish   bugs: { url: 'https://github.com/isaacsun86/react-native-storage/issues' },
+23 silly publish   homepage: 'https://github.com/isaacsun86/react-native-storage#readme',
+23 silly publish   readme: '# react-native-storage\nLocal storage based on React Native AsyncStorage API\nA lightweight wrapper around React Native\'s AsyncStorage, which makes working with objects in AsyncStorage a breeze.\n',
+23 silly publish   readmeFilename: 'README.md',
+23 silly publish   gitHead: 'aea1108b6fa8722ee8bb91a96d6845de13539899',
+23 silly publish   _id: 'react-native-persistent-storage@0.0.1',
+23 silly publish   _shasum: 'ee4cbdc14d0c9a5e7eae5df946bb7e5ca51ee99d',
+23 silly publish   _from: '.' }
+24 info lifecycle react-native-persistent-storage@0.0.1~prepublishOnly: react-native-persistent-storage@0.0.1
+25 silly lifecycle react-native-persistent-storage@0.0.1~prepublishOnly: no script for prepublishOnly, continuing
+26 verbose getPublishConfig undefined
+27 silly mapToRegistry name react-native-persistent-storage
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry data Result {
+30 silly mapToRegistry   raw: 'react-native-persistent-storage',
+30 silly mapToRegistry   scope: null,
+30 silly mapToRegistry   escapedName: 'react-native-persistent-storage',
+30 silly mapToRegistry   name: 'react-native-persistent-storage',
+30 silly mapToRegistry   rawSpec: '',
+30 silly mapToRegistry   spec: 'latest',
+30 silly mapToRegistry   type: 'tag' }
+31 silly mapToRegistry uri https://registry.npmjs.org/react-native-persistent-storage
+32 verbose publish registryBase https://registry.npmjs.org/
+33 silly publish uploading /Users/isaac/.npm/react-native-persistent-storage/0.0.1/package.tgz
+34 verbose request uri https://registry.npmjs.org/react-native-persistent-storage
+35 verbose request sending authorization for write operation
+36 info attempt registry request try #1 at 4:18:42 PM
+37 verbose request using bearer token for auth
+38 verbose request id 593cb7ea26b0da6c
+39 http request PUT https://registry.npmjs.org/react-native-persistent-storage
+40 http 403 https://registry.npmjs.org/react-native-persistent-storage
+41 verbose headers { 'content-type': 'application/json',
+41 verbose headers   'cache-control': 'max-age=300',
+41 verbose headers   'content-length': '95',
+41 verbose headers   'accept-ranges': 'bytes',
+41 verbose headers   date: 'Mon, 17 Apr 2017 08:18:43 GMT',
+41 verbose headers   via: '1.1 varnish',
+41 verbose headers   connection: 'keep-alive',
+41 verbose headers   'x-served-by': 'cache-nrt6130-NRT',
+41 verbose headers   'x-cache': 'MISS',
+41 verbose headers   'x-cache-hits': '0',
+41 verbose headers   'x-timer': 'S1492417123.340640,VS0,VE477',
+41 verbose headers   vary: 'Accept-Encoding' }
+42 verbose request invalidating /Users/isaac/.npm/registry.npmjs.org/react-native-persistent-storage on PUT
+43 error publish Failed PUT 403
+44 verbose stack Error: "You cannot publish over the previously published version 0.0.1." : react-native-persistent-storage
+44 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:304:12)
+44 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:292:14)
+44 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:212:14)
+44 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:186:22)
+44 verbose stack     at emitTwo (events.js:106:13)
+44 verbose stack     at Request.emit (events.js:191:7)
+44 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1081:10)
+44 verbose stack     at emitOne (events.js:96:13)
+44 verbose stack     at Request.emit (events.js:188:7)
+44 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1001:12)
+45 verbose statusCode 403
+46 verbose pkgid react-native-persistent-storage
+47 verbose cwd /Users/isaac/app/react-native-storage
+48 error Darwin 16.4.0
+49 error argv "/usr/local/Cellar/node@6/6.10.0_1/bin/node" "/usr/local/bin/npm" "publish"
+50 error node v6.10.0
+51 error npm  v4.1.2
+52 error code E403
+53 error "You cannot publish over the previously published version 0.0.1." : react-native-persistent-storage
+54 error If you need help, you may report this error at:
+54 error     <https://github.com/npm/npm/issues>
+55 verbose exit [ 1, true ]
